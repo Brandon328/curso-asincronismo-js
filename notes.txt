@@ -1,0 +1,8 @@
+pwd: Saber donde estoy ubicado.
+mkdir: Creación de carpeta
+cd: Moverse a carpetas
+git init: Inicias Git
+npm init: Le da nombre, versión, entre otras cosas al proyecto
+code . : Inicia el editor de códigos
+npm init -y: Para no darle valores default
+code ./ -r: Para que Visual Code no abra otra ventana si usas la terminal del programa:
