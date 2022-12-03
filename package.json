@@ -13,5 +13,8 @@
     "asynchronous"
   ],
   "author": "Brandon328",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
