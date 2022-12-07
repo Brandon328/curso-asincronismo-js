@@ -2,7 +2,7 @@ import fetch from "node-fetch";
 const API = 'https://api.escuelajs.co/api/v1/products';
 
 function updateProduct(urlApi, product) {
-  const response = fetch(urlApi, {
+  const options = {
     method: 'PUT',
     mode: 'cors',
     credentials: 'same-origin', //valor por defecto
@@ -10,7 +10,8 @@ function updateProduct(urlApi, product) {
       'Content-Type': 'application/json'
     },
     body: JSON.stringify(product)
-  });
+  }
+  const response = fetch(urlApi, options);
   return response;
 }
 
